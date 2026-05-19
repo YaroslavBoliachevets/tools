@@ -1,6 +1,11 @@
 {
 	"hero": {
-		"title": "High‑quality diamond tools",
-		"subtitle": "We create tools for your tasks"
+		"title": "HIGH‑QUALITY DIAMOND TOOLS FOR YOUR TASKS"
+	},
+	"navigation": {
+		"main": "home",
+		"company": "about us",
+		"tools": "tools",
+		"contacts": "contacts"
 	}
 }

@@ -11,11 +11,9 @@ export const dictionaries = {
 // }
 
 export async function getDictionary(locale: string) {
-	const fn = dictionaries[locale as keyof typeof dictionaries];
+	// console.log("locale getDictionary", locale);
+	const fn = await dictionaries[locale as keyof typeof dictionaries]();
+	// console.log("fn getDictionary", fn);
 
-	if (typeof fn !== "function") {
-		throw new Error(`Dictionary loader for locale "${locale}" is not a function`);
-	}
-
-	return fn();
+	return fn;
 }
