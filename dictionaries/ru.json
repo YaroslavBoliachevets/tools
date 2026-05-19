@@ -7,5 +7,39 @@
 		"company": "о компании",
 		"tools": "инструменты",
 		"contacts": "контакты"
+	},
+	"footer": {
+		"addressTitle": "Адрес:",
+		"address": {
+			"postalCode": "07300",
+			"region": "Киевская обл.",
+			"city": "Вышгород",
+			"street": "Промышленная Площадка «Карат» №30"
+		},
+
+		"contactsTitle": "Контакты:",
+		"contacts": {
+			"phone": "+38 050 889 82 89",
+			"email": "kdtu-1@ukr.net"
+		},
+
+		"socialTitle": "Мы в соц сетях",
+
+		"productsTitle": "Продукция",
+		"products": {
+			"woodTools": "Инструмент для деревообработки",
+			"industrialTools": "Инструментальное производство",
+			"pastes": "Алмазные и CBN пасты",
+			"bars": "Бруски",
+			"catalog": "Скачать каталог"
+		},
+
+		"infoTitle": "Информация",
+		"info": {
+			"delivery": "Доставка и оплата",
+			"warranty": "Гарантия на товар",
+			"privacy": "Политика конфиденциальности",
+			"maps": "Мы на Google Maps"
+		}
 	}
 }

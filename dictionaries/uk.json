@@ -7,5 +7,39 @@
 		"company": "про нас",
 		"tools": "iнструменти",
 		"contacts": "контакти"
+	},
+	"footer": {
+		"addressTitle": "Адреса:",
+		"address": {
+			"postalCode": "07300",
+			"region": "Київська обл.",
+			"city": "Вишгород",
+			"street": "Промисловий Майданчик «Карат» №30"
+		},
+
+		"contactsTitle": "Контакти:",
+		"contacts": {
+			"phone": "+38 050 889 82 89",
+			"email": "kdtu-1@ukr.net"
+		},
+
+		"socialTitle": "Ми в соцмережах",
+
+		"productsTitle": "Продукція",
+		"products": {
+			"woodTools": "Інструмент для деревообробки",
+			"industrialTools": "Інструментальне виробництво",
+			"pastes": "Алмазні та CBN пасти",
+			"bars": "Бруски",
+			"catalog": "Завантажити каталог"
+		},
+
+		"infoTitle": "Інформація",
+		"info": {
+			"delivery": "Доставка та оплата",
+			"warranty": "Гарантія на товар",
+			"privacy": "Політика конфіденційності",
+			"maps": "Ми на Google Maps"
+		}
 	}
 }

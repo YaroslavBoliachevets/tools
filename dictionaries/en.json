@@ -7,5 +7,39 @@
 		"company": "about us",
 		"tools": "tools",
 		"contacts": "contacts"
+	},
+	"footer": {
+		"addressTitle": "Address:",
+		"address": {
+			"postalCode": "07300",
+			"region": "Kyiv region",
+			"city": "Vyshhorod",
+			"street": "Industrial Site “Karat” №30"
+		},
+
+		"contactsTitle": "Contacts:",
+		"contacts": {
+			"phone": "+38 050 889 82 89",
+			"email": "kdtu-1@ukr.net"
+		},
+
+		"socialTitle": "We are on social media",
+
+		"productsTitle": "Products",
+		"products": {
+			"woodTools": "Woodworking tools",
+			"industrialTools": "Industrial tools",
+			"pastes": "Diamond and CBN pastes",
+			"bars": "Sharpening stones",
+			"catalog": "Download catalog"
+		},
+
+		"infoTitle": "Information",
+		"info": {
+			"delivery": "Delivery and payment",
+			"warranty": "Product warranty",
+			"privacy": "Privacy policy",
+			"maps": "We are on Google Maps"
+		}
 	}
 }
