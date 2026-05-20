@@ -15,10 +15,7 @@ export default function Header({
 	locale: string;
 }) {
 	return (
-		<header
-			className="relative w-full h-screen bg-cover bg-center bg-no-repeat py-2 md:py-4 lg:py-5"
-			style={{ backgroundImage: "url(/img/main-bg.webp)" }}
-		>
+		<header className="fixed w-full top-0 left-0 z-50 py-2 md:py-4 lg:py-5 bg-black/30 backdrop-blur-sm ">
 			<nav className="container grid grid-cols-3 items-center">
 				<div className="flex items-center justify-start">
 					<LanguageSwitcher />
@@ -40,13 +37,6 @@ export default function Header({
 					<Navigation dict={dict} locale={locale} />
 				</div>
 			</nav>
-			<section>
-				<div className="container flex justify-center">
-					<h1 className="text-(--color-light) text-2xl text-center w-[350px] h-[70vh] flex items-center justify-center md:w-[500px] lg:w-[700px]">
-						{dict.hero.title}
-					</h1>
-				</div>
-			</section>
 		</header>
 	);
 }

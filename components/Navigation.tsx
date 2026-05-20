@@ -55,10 +55,18 @@ export default function Navigation({
 			<div
 				className={`absolute right-0 top-10 flex flex-col gap-4 bg-black/80 backdrop-blur-md p-6 rounded-lg text-(--color-light) min-w-[200px] duration-300  ${open ? "opacity-100 translate-y-0 pointer-events-auto" : "opacity-0 translate-y-2 pointer-events-none"}`}
 			>
-				<Link href={`/${locale}`}>{navigation.main}</Link>
-				<Link href="/">{navigation.company}</Link>
-				<Link href={`/${locale}/catalog`}>{navigation.tools}</Link>
-				<Link href="/">{navigation.contacts}</Link>
+				<Link href={`/${locale}`} onClick={() => setOpen(false)}>
+					{navigation.main}
+				</Link>
+				<Link href="/" onClick={() => setOpen(false)}>
+					{navigation.company}
+				</Link>
+				<Link href={`/${locale}/catalog`} onClick={() => setOpen(false)}>
+					{navigation.tools}
+				</Link>
+				<Link href="/" onClick={() => setOpen(false)}>
+					{navigation.contacts}
+				</Link>
 			</div>
 		</div>
 	);

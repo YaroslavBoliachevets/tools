@@ -25,7 +25,7 @@ export default function LanguageSwitcher() {
 			{languages.map((lang) => (
 				<Link
 					key={lang.code}
-					href={`/${lang.code}`}
+					href={`/${lang.code}/${restOfPath}`}
 					className={`transition ${currentLocale === lang.code ? "font-bold text-(--color-primary)" : "opacity-70 hover:opacity-100"}`}
 				>
 					{lang.label}

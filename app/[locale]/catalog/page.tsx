@@ -10,8 +10,8 @@ export default async function CatalogPage({
 	const { locale } = await params;
 	const dict = await getDictionary(locale);
 	return (
-		<section>
-			<h1 className="text-3xl font-bold mb-4">Каталог</h1>
+		<section className="container mt-18 md:mt-25 lg:mt-35">
+			<h1 className="text-3xl font-bold">{dict.catalog.catalogTitle}</h1>
 			<BarsCatalogue dict={dict} locale={locale} />
 		</section>
 	);

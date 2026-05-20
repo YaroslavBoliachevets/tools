@@ -11,7 +11,7 @@ export default function BarsCatalogue({
 	dict: Dictionary;
 	locale: string;
 }) {
-	const { barsSection } = dict;
+	const { barsSection } = dict.catalog;
 	return (
 		<section className="container m-auto py-10 ">
 			<div className="mb-8">

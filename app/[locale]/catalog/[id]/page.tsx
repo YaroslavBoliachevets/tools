@@ -12,14 +12,14 @@ export default async function ProductPage({
 
 	if (!product) {
 		return (
-			<div className="container">
+			<div className="container mt-35">
 				<h2 className="text-3xl font-bold mb-4">Товар не найден</h2>
 				<p className="opacity-70">Похоже, такого товара нет в каталоге</p>
 			</div>
 		);
 	}
 	return (
-		<section className="container">
+		<section className="container mt-35 ">
 			<div>
 				<h2>{product.title}</h2>
 			</div>

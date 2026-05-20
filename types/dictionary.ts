@@ -35,8 +35,11 @@ export interface Dictionary {
 			maps: string;
 		};
 	};
-	barsSection: {
-		title: string;
-		subtitle: string;
+	catalog: {
+		catalogTitle: string;
+		barsSection: {
+			title: string;
+			subtitle: string;
+		};
 	};
 }

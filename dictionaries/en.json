@@ -42,8 +42,11 @@
 			"maps": "We are on Google Maps"
 		}
 	},
-	"barsSection": {
-		"title": "Knife Sharpening",
-		"subtitle": "Diamond and CBN sharpening stones for grinding and polishing in woodworking, mechanical engineering, and household knife production"
+	"catalog": {
+		"catalogTitle": "Catalog",
+		"barsSection": {
+			"title": "Knife Sharpening",
+			"subtitle": "Diamond and CBN sharpening stones for grinding and polishing in woodworking, mechanical engineering, and household knife production"
+		}
 	}
 }
