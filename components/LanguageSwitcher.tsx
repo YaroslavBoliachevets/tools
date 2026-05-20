@@ -14,11 +14,9 @@ const languages = [
 
 export default function LanguageSwitcher() {
 	const pathname = usePathname();
-	// console.log("pathname", pathname);
+
 	const currentLocale = pathname.split("/")[1];
 	const restOfPath = pathname.split("/").slice(2).join("/");
-	// console.log("currentLocale", currentLocale);
-	// console.log("restOfPath", restOfPath);
 
 	return (
 		<div className="text-(--color-light) flex gap-3 text-sm">

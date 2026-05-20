@@ -48,5 +48,53 @@
 			"title": "Knife Sharpening",
 			"subtitle": "Diamond and CBN sharpening stones for grinding and polishing in woodworking, mechanical engineering, and household knife production"
 		}
+	},
+	"tools": {
+		"items": [
+			{
+				"title": "Tools for woodworking",
+				"text": "Grinding wheels for manufacturing and sharpening woodworking tools: circular and band saws, cutters, and drills"
+			},
+			{
+				"title": "Tool production and general engineering",
+				"text": "Grinding wheels for manufacturing and sharpening high‑precision milling cutters, drills, and other tools using CNC machines"
+			},
+			{
+				"title": "Knife sharpening",
+				"text": "Diamond and CBN stones for sharpening and grinding in woodworking, engineering, and household knife production"
+			}
+		]
+	},
+	"aboutUs": {
+		"sectionLabel": "some information",
+		"title": "About the Company",
+		"description": "KYOTO DIAMOND TOOLS UKRAINE is a young and promising company that manufactures superabrasive tools with increased performance and wear‑resistance requirements. The enterprise was founded in 2010 in Vyshhorod, Kyiv region, by the Japanese parent company Kyoto Diamond Industrial Co. Ltd. This company has a long history and supplies its tools to leading Japanese and European automotive, bearing, jewelry, and electrical engineering manufacturers worldwide. Our Ukrainian division produced and supplied diamond and CBN tools on organic bonds for Japanese machine‑building enterprises.",
+		"button": "View our contacts",
+		"features": [
+			{
+				"title": "Personal approach",
+				"text": "Individual approach to every client"
+			},
+			{
+				"title": "Exclusive products",
+				"text": "Tool development based on custom drawings"
+			},
+			{
+				"title": "Full‑cycle support",
+				"text": "Working for a final result that satisfies the client"
+			},
+			{
+				"title": "Production speed",
+				"text": "Manufacturing time does not exceed 14 days"
+			},
+			{
+				"title": "Consistent quality",
+				"text": "Guaranteed performance and wear resistance"
+			},
+			{
+				"title": "Dedication to our craft",
+				"text": "Professionalism in everything we do"
+			}
+		]
 	}
 }
