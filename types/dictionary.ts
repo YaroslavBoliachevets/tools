@@ -35,4 +35,8 @@ export interface Dictionary {
 			maps: string;
 		};
 	};
+	barsSection: {
+		title: string;
+		subtitle: string;
+	};
 }

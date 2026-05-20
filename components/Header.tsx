@@ -1,7 +1,8 @@
 "use client";
+import { Dictionary } from "@/types/dictionary";
+
 import Link from "next/link";
 import Image from "next/image";
-import { Dictionary } from "@/types/dictionary";
 
 import LanguageSwitcher from "./LanguageSwitcher";
 import Navigation from "./Navigation";
