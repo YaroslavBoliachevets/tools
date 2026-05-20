@@ -9,10 +9,11 @@ export default function BarCard({
 	image,
 	title,
 	shortDescription,
+	locale,
 }: BarCardTypes) {
 	return (
 		<Link
-			href={`/catalog/${id}`}
+			href={`/${locale}/catalog/${id}`}
 			className="block rounded-lg bg-white/40 hover:bg-white/60 hover:scale-[1.05] hover:shadow-xl hover:shadow-(--color-primary)/20 transition-all duration-[1000ms] ease-in-out transform-gpu md:p-3 lg:p-3"
 		>
 			<div className="h-full">

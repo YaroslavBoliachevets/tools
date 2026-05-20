@@ -4,7 +4,13 @@ import { products } from "@/data/products";
 
 import BarCard from "./BarCard";
 
-export default function BarsCatalogue({ dict }: { dict: Dictionary }) {
+export default function BarsCatalogue({
+	dict,
+	locale,
+}: {
+	dict: Dictionary;
+	locale: string;
+}) {
 	const { barsSection } = dict;
 	return (
 		<section className="container m-auto py-10 ">
@@ -15,7 +21,7 @@ export default function BarsCatalogue({ dict }: { dict: Dictionary }) {
 
 			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
 				{products.map((product) => (
-					<BarCard key={product.id} {...product} />
+					<BarCard key={product.id} {...product} locale={locale} />
 				))}
 			</div>
 		</section>

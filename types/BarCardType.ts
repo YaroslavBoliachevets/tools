@@ -3,4 +3,5 @@ export interface BarCardTypes {
 	title: string;
 	image: string;
 	shortDescription: string;
+	locale: string;
 }

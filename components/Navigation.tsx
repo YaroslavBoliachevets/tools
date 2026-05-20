@@ -3,10 +3,16 @@ import Link from "next/link";
 import { Dictionary } from "@/types/dictionary";
 import { useState, useEffect, useRef } from "react";
 
-export default function Navigation({ dict }: { dict: Dictionary }) {
+export default function Navigation({
+	dict,
+	locale,
+}: {
+	dict: Dictionary;
+	locale: string;
+}) {
 	const { navigation } = dict;
 	const [open, setOpen] = useState(false);
-	const menuRef = useRef<HTMLDivEvent | null>(null);
+	const menuRef = useRef<HTMLDivElement | null>(null);
 
 	useEffect(() => {
 		const handleOutside = (event: MouseEvent) => {
@@ -49,9 +55,9 @@ export default function Navigation({ dict }: { dict: Dictionary }) {
 			<div
 				className={`absolute right-0 top-10 flex flex-col gap-4 bg-black/80 backdrop-blur-md p-6 rounded-lg text-(--color-light) min-w-[200px] duration-300  ${open ? "opacity-100 translate-y-0 pointer-events-auto" : "opacity-0 translate-y-2 pointer-events-none"}`}
 			>
-				<Link href="/">{navigation.main}</Link>
+				<Link href={`/${locale}`}>{navigation.main}</Link>
 				<Link href="/">{navigation.company}</Link>
-				<Link href="/">{navigation.tools}</Link>
+				<Link href={`/${locale}/catalog`}>{navigation.tools}</Link>
 				<Link href="/">{navigation.contacts}</Link>
 			</div>
 		</div>

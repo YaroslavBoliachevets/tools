@@ -7,7 +7,13 @@ import Image from "next/image";
 import LanguageSwitcher from "./LanguageSwitcher";
 import Navigation from "./Navigation";
 
-export default function Header({ dict }: { dict: Dictionary }) {
+export default function Header({
+	dict,
+	locale,
+}: {
+	dict: Dictionary;
+	locale: string;
+}) {
 	return (
 		<header
 			className="relative w-full h-screen bg-cover bg-center bg-no-repeat py-2 md:py-4 lg:py-5"
@@ -31,7 +37,7 @@ export default function Header({ dict }: { dict: Dictionary }) {
 					/>
 				</Link>
 				<div className="text-(--color-light) flex items-center justify-end">
-					<Navigation dict={dict} />
+					<Navigation dict={dict} locale={locale} />
 				</div>
 			</nav>
 			<section>

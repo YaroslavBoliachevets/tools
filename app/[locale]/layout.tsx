@@ -5,7 +5,6 @@ import { getDictionary } from "@/lib/i18n/get-dictionary";
 
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import BarsCatalogue from "@/components/BarsCatalogue";
 
 const geistSans = Geist({
 	variable: "--font-geist-sans",
@@ -30,18 +29,16 @@ export default async function RootLayout({
 	params: { locale: string };
 }>) {
 	const { locale } = await params;
-	// console.log("locale", locale);
 	const dict = await getDictionary(locale);
-	// console.log("dict", dict);
+
 	return (
 		<html
 			lang={locale}
 			className={`${geistSans.variable} ${geistMono.variable} h-full`}
 		>
 			<body className="min-h-screen flex flex-col bg-white text-gray-900 antialiased">
-				<Header dict={dict} />
+				<Header dict={dict} locale={locale} />
 				<main className="flex-1">{children}</main>
-				<BarsCatalogue dict={dict} />
 				<Footer dict={dict} />
 			</body>
 		</html>
