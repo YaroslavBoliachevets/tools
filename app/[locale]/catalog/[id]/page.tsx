@@ -6,6 +6,7 @@ import ProductSuitableFor from "@/components/product/ProductSuitableFor";
 import ProductPrices from "@/components/product/ProductPrices";
 import ProductGrit from "@/components/product/ProductGrit";
 import ProductHelpInfo from "@/components/product/ProductHelpInfo";
+import ProductHowToUse from "@/components/product/ProductHowToUse";
 
 export default async function ProductPage({
 	params,
@@ -98,6 +99,7 @@ export default async function ProductPage({
 					<ProductSpecs specs={product.specs} />
 					<ProductSuitableFor suitableFor={product.suitableFor} />
 				</div>
+				<ProductHowToUse />
 			</div>
 		</section>
 	);

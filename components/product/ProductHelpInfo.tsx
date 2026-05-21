@@ -3,7 +3,7 @@ export default function ProductHelpInfo() {
 		<>
 			<ul className="grid grid-cols-1 sm:grid-cols-3 gap-3 mt-4">
 				<li
-					className=" items-center gap-3 bg-(--dark-background) text-(--light-text) px-4 py-3 rounded-xl 
+					className="flex items-center gap-3 bg-(--dark-background) text-(--light-text) px-4 py-3 rounded-xl 
                   border border-(--dark-border) transition-all duration-200
                   hover:shadow-lg hover:-translate-y-[2px] hover:border-(--color-primary)"
 				>

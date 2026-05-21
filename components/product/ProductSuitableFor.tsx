@@ -8,7 +8,7 @@ export default function ProductSuitableFor({
 			<p className=" mb-2 text-[12px]  tracking-tight text-start text-(--color-primary) uppercase ">
 				Застосування
 			</p>
-			<h3 className="text-xl  text-center">Підходить для</h3>
+			<h3 className="text-xl   text-start">Підходить для</h3>
 			<p className=" py-1 text-[11px] text-(--secondary-text)">
 				300 grit — середня заточка. Універсальна зернистість для відновлення ріжучої
 				кромки.

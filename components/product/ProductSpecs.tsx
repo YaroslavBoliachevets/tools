@@ -6,7 +6,7 @@ export default function ProductSpecs({ specs }: { specs: SpecItem[] }) {
 			<p className=" mb-2 text-[12px]  tracking-tight text-start text-(--color-primary) uppercase ">
 				Технические данные
 			</p>
-			<h3 className="text-xl  text-center">Характеристики</h3>
+			<h3 className="text-xl   text-start">Характеристики</h3>
 			<p className=" py-1 text-[11px] text-(--secondary-text)">
 				Параметри бруска перевірені на лабораторному стенді KDTU. Кожна партія
 				проходить контроль геометрії та однорідності зерна.
