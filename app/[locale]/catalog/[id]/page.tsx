@@ -5,6 +5,7 @@ import ProductSpecs from "@/components/product/ProductSpecs";
 import ProductSuitableFor from "@/components/product/ProductSuitableFor";
 import ProductPrices from "@/components/product/ProductPrices";
 import ProductGrit from "@/components/product/ProductGrit";
+import ProductHelpInfo from "@/components/product/ProductHelpInfo";
 
 export default async function ProductPage({
 	params,
@@ -89,24 +90,14 @@ export default async function ProductPage({
 						/>
 						<ProductPrices />
 						<ProductGrit />
+						<ProductHelpInfo />
 					</div>
 				</div>
+
 				<div className="md:grid md:grid-cols-2 md:gap-6">
 					<ProductSpecs specs={product.specs} />
 					<ProductSuitableFor suitableFor={product.suitableFor} />
 				</div>
-				{/* <div className="mt-6">
-					<p className="text-gray-500 mb-6">{product.description}</p>
-
-					<ul>
-						{product.specs.map((item, i) => (
-							<li key={i} className="flex justify-between">
-								<span className="text-gray-500">{item.label}</span>
-								<span className="">{item.value}</span>
-							</li>
-						))}
-					</ul>
-				</div> */}
 			</div>
 		</section>
 	);
