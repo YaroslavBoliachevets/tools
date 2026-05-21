@@ -4,6 +4,7 @@ import ProductHeader from "@/components/product/ProductHeader";
 import ProductSpecs from "@/components/product/ProductSpecs";
 import ProductSuitableFor from "@/components/product/ProductSuitableFor";
 import ProductPrices from "@/components/product/ProductPrices";
+import ProductGrit from "@/components/product/ProductGrit";
 
 export default async function ProductPage({
 	params,
@@ -87,6 +88,7 @@ export default async function ProductPage({
 							shortDescription={product.shortDescription}
 						/>
 						<ProductPrices />
+						<ProductGrit />
 					</div>
 				</div>
 				<div className="md:grid md:grid-cols-2 md:gap-6">
