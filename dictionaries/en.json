@@ -3,10 +3,10 @@
 		"title": "HIGH‑QUALITY DIAMOND TOOLS FOR YOUR TASKS"
 	},
 	"navigation": {
-		"main": "home",
-		"company": "about us",
-		"tools": "tools",
-		"contacts": "contacts"
+		"main": "Home",
+		"company": "About us",
+		"tools": "Tools",
+		"contacts": "Contacts"
 	},
 	"footer": {
 		"addressTitle": "Address:",

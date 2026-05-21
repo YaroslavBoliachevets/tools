@@ -42,4 +42,12 @@ export interface Dictionary {
 			subtitle: string;
 		};
 	};
+	tools: { items: { title: string; text: string }[] };
+	aboutUs: {
+		sectionLabel: string;
+		title: string;
+		description: string;
+		button: string;
+		features: { title: string; text: string }[];
+	};
 }

@@ -12,7 +12,7 @@ export const dictionaries = {
 
 export async function getDictionary(locale: string) {
 	// console.log("locale getDictionary", locale);
-	const fn = await dictionaries[locale as keyof typeof dictionaries]();
+	const fn = dictionaries[locale as keyof typeof dictionaries]();
 	// console.log("fn getDictionary", fn);
 
 	return fn;
