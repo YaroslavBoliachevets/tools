@@ -7,7 +7,7 @@ export default function ProductGrit() {
 	const [current, setCurrent] = useState(0);
 
 	return (
-		<div className=" mb-4 bg-gray-200 px-4 py-2 border border-gray-300 rounded-xl">
+		<div className=" mb-4 bg-(--color-background) px-4 py-2 border border-(--border-color) rounded-xl">
 			<span className="text-gray-500">Зернистость</span>
 
 			<div className="grid justify-end pb-2 sm:flex sm:gap-2">
@@ -19,7 +19,7 @@ export default function ProductGrit() {
 			</div>
 
 			<div>
-				<ul className="grid gap-3 md:gap-6 grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-3 pb-4">
+				<ul className="grid gap-3 md:gap-6 lg:gap-2 grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-5 pb-4">
 					{gritOptions.map((option, i) => {
 						const isActive = current === i;
 						return (
